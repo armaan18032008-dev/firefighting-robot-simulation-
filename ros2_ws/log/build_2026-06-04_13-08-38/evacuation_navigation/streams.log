@@ -1,0 +1,32 @@
+[0.945s] Invoking command in '/home/armaan/firefighting-robot-simulation-/ros2_ws/src/evacuation_navigation': PYTHONPATH=/home/armaan/firefighting-robot-simulation-/ros2_ws/build/evacuation_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/armaan/firefighting-robot-simulation-/ros2_ws/install/evacuation_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/evacuation_navigation build --build-base /home/armaan/firefighting-robot-simulation-/ros2_ws/build/evacuation_navigation/build install --record /home/armaan/firefighting-robot-simulation-/ros2_ws/build/evacuation_navigation/install.log --single-version-externally-managed install_data
+[1.091s] running egg_info
+[1.091s] creating ../../build/evacuation_navigation/evacuation_navigation.egg-info
+[1.101s] writing ../../build/evacuation_navigation/evacuation_navigation.egg-info/PKG-INFO
+[1.102s] writing dependency_links to ../../build/evacuation_navigation/evacuation_navigation.egg-info/dependency_links.txt
+[1.102s] writing requirements to ../../build/evacuation_navigation/evacuation_navigation.egg-info/requires.txt
+[1.102s] writing top-level names to ../../build/evacuation_navigation/evacuation_navigation.egg-info/top_level.txt
+[1.102s] writing manifest file '../../build/evacuation_navigation/evacuation_navigation.egg-info/SOURCES.txt'
+[1.124s] reading manifest file '../../build/evacuation_navigation/evacuation_navigation.egg-info/SOURCES.txt'
+[1.124s] writing manifest file '../../build/evacuation_navigation/evacuation_navigation.egg-info/SOURCES.txt'
+[1.124s] running build
+[1.125s] running build_py
+[1.125s] creating /home/armaan/firefighting-robot-simulation-/ros2_ws/build/evacuation_navigation/build
+[1.125s] creating /home/armaan/firefighting-robot-simulation-/ros2_ws/build/evacuation_navigation/build/lib
+[1.125s] creating /home/armaan/firefighting-robot-simulation-/ros2_ws/build/evacuation_navigation/build/lib/evacuation_navigation
+[1.125s] copying evacuation_navigation/__init__.py -> /home/armaan/firefighting-robot-simulation-/ros2_ws/build/evacuation_navigation/build/lib/evacuation_navigation
+[1.125s] running install
+[1.130s] running install_lib
+[1.140s] creating /home/armaan/firefighting-robot-simulation-/ros2_ws/install/evacuation_navigation/lib/python3.12/site-packages/evacuation_navigation
+[1.140s] copying /home/armaan/firefighting-robot-simulation-/ros2_ws/build/evacuation_navigation/build/lib/evacuation_navigation/__init__.py -> /home/armaan/firefighting-robot-simulation-/ros2_ws/install/evacuation_navigation/lib/python3.12/site-packages/evacuation_navigation
+[1.140s] byte-compiling /home/armaan/firefighting-robot-simulation-/ros2_ws/install/evacuation_navigation/lib/python3.12/site-packages/evacuation_navigation/__init__.py to __init__.cpython-312.pyc
+[1.140s] running install_data
+[1.140s] creating /home/armaan/firefighting-robot-simulation-/ros2_ws/install/evacuation_navigation/share/ament_index
+[1.141s] creating /home/armaan/firefighting-robot-simulation-/ros2_ws/install/evacuation_navigation/share/ament_index/resource_index
+[1.141s] creating /home/armaan/firefighting-robot-simulation-/ros2_ws/install/evacuation_navigation/share/ament_index/resource_index/packages
+[1.141s] copying resource/evacuation_navigation -> /home/armaan/firefighting-robot-simulation-/ros2_ws/install/evacuation_navigation/share/ament_index/resource_index/packages
+[1.141s] copying package.xml -> /home/armaan/firefighting-robot-simulation-/ros2_ws/install/evacuation_navigation/share/evacuation_navigation
+[1.141s] running install_egg_info
+[1.152s] Copying ../../build/evacuation_navigation/evacuation_navigation.egg-info to /home/armaan/firefighting-robot-simulation-/ros2_ws/install/evacuation_navigation/lib/python3.12/site-packages/evacuation_navigation-0.0.0-py3.12.egg-info
+[1.153s] running install_scripts
+[1.222s] writing list of installed files to '/home/armaan/firefighting-robot-simulation-/ros2_ws/build/evacuation_navigation/install.log'
+[1.252s] Invoked command in '/home/armaan/firefighting-robot-simulation-/ros2_ws/src/evacuation_navigation' returned '0': PYTHONPATH=/home/armaan/firefighting-robot-simulation-/ros2_ws/build/evacuation_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/armaan/firefighting-robot-simulation-/ros2_ws/install/evacuation_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/evacuation_navigation build --build-base /home/armaan/firefighting-robot-simulation-/ros2_ws/build/evacuation_navigation/build install --record /home/armaan/firefighting-robot-simulation-/ros2_ws/build/evacuation_navigation/install.log --single-version-externally-managed install_data

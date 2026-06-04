@@ -1,0 +1,4 @@
+import sys
+if sys.prefix == '/usr':
+    sys.real_prefix = sys.prefix
+    sys.prefix = sys.exec_prefix = '/home/armaan/firefighting-robot-simulation-/ros2_ws/install/evacuation_navigation'
