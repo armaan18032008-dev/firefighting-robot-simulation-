@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <sdf version="1.8">
   <world name="fire_world">
+
+    <include>
+      <uri>file:///home/armaan/firefighting-robot-simulation-/ros2_ws/src/simulation/models/firebot</uri>
+      <pose>0 0 0.1 0 0 0</pose>
+    </include>
+
   </world>
 </sdf>
