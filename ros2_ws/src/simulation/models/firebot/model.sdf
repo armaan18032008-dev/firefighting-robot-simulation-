@@ -70,9 +70,14 @@
   <parent>base_link</parent>
   <child>left_wheel</child>
 
-  <axis>
-    <xyz>0 1 0</xyz>
-  </axis>
+    <axis>
+  <xyz>0 1 0</xyz>
+
+  <limit>
+    <effort>10</effort>
+    <velocity>20</velocity>
+  </limit>
+</axis>
 </joint>
 <link name="right_wheel">
   <pose>0 -0.18 -0.05 1.5708 0 0</pose>
@@ -110,10 +115,14 @@
 <joint name="right_wheel_joint" type="revolute">
   <parent>base_link</parent>
   <child>right_wheel</child>
+    <axis>
+  <xyz>0 1 0</xyz>
 
-  <axis>
-    <xyz>0 1 0</xyz>
-  </axis>
+  <limit>
+    <effort>10</effort>
+    <velocity>20</velocity>
+  </limit>
+</axis>
 </joint>
 <link name="caster_wheel">
   <pose>0.15 0 -0.08 0 0 0</pose>
