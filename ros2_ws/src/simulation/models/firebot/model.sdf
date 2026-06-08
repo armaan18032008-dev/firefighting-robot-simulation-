@@ -207,5 +207,18 @@
   <parent>base_link</parent>
   <child>camera_link</child>
 </joint>
+<plugin
+    filename="gz-sim-diff-drive-system"
+    name="gz::sim::systems::DiffDrive">
+
+  <left_joint>left_wheel_joint</left_joint>
+  <right_joint>right_wheel_joint</right_joint>
+
+  <wheel_separation>0.36</wheel_separation>
+  <wheel_radius>0.05</wheel_radius>
+
+  <topic>cmd_vel</topic>
+
+</plugin>
   </model>
 </sdf>
