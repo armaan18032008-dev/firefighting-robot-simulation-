@@ -1,10 +1,37 @@
 <?xml version="1.0"?>
 <sdf version="1.8">
   <world name="fire_world">
+<scene>
+  <ambient>1 1 1 1</ambient>
+  <background>1 1 1 1</background>
+</scene>
+    <model name="ground_plane">
+      <static>true</static>
+
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </visual>
+      </link>
+    </model>
 
     <include>
       <uri>model://firebot</uri>
-      <pose>0 0 0.1 0 0 0</pose>
+      <pose>0 0 0.3 0 0 0</pose>
     </include>
 
   </world>

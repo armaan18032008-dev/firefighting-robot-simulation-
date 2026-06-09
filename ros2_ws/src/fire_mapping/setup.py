@@ -23,7 +23,8 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
-        ],
+    'console_scripts': [
+        'mapping_node = fire_mapping.mapping_node:main',
+    ],
     },
 )
